@@ -7,9 +7,14 @@
 body {
     font-family: 'Open Sans', sans-serif;;
 }
-/* main {
+main {
     background-color: #f6f8f9;
-} */
+    padding: 40px 0 10px 0;
+} 
+
+#new-task, #today, #upcoming {
+    margin: 40px 0;
+}
 
 /* header  */
 .header-container {
@@ -53,6 +58,9 @@ h1 {
 }
 
 /* list */
+.list-container {
+    padding: 0 0 40px 40px;
+}
 .inline-block {
     display: inline-block;
 }
@@ -62,6 +70,15 @@ h1 {
     border: 1px solid rgb(30, 219, 30) ;
     border-radius: 50%;
     padding: 2px 4px;
+    margin-right: 6px;
+}
+.cross {
+    color: #eb5a53;
+    font-size: 10px;
+    border: 1px solid #eb5a53 ;
+    border-radius: 50%;
+    padding: 2px 4px;
+    margin-right: 6px;
 }
 .button-style {
     padding: 6px 12px;
@@ -69,9 +86,33 @@ h1 {
     border-style: none;
     color: white;
 }
+.item {
+    margin-bottom: 20px;
+}
+.hidden {
+    visibility: hidden;
+}
+
+/* colors buttons */
 .blue {
     background-color: #45abea;
 }
+.purple {
+    background-color: #9c72e4;
+}
+.green {
+    background-color: #64c0a9;
+}
+.yellow {
+    background-color: #f29e33;
+}
+.pink {
+    background-color: #d863a1;
+}
+.lime {
+    background-color: #b0c926;
+}
+
 
 
 
